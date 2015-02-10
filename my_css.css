@@ -1,0 +1,17 @@
+body {
+  background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-1.jpg);
+  background-size: cover;
+  margine: 40px auto;
+}
+
+h1 {
+  font-weight: bold;
+  color: #CC0000;
+}
+
+div {
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  border: 2px solid black;
+}
