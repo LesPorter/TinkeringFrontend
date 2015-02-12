@@ -14,4 +14,17 @@ div {
   width: 200px;
   padding: 5px;
   border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Convention says to use a class for styles used more than once */
+.div_class {
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+/* Convention says to use an ID for styles only once */
+#div_id {
+  border: 3px dashed green;
+  border-radius: 100px;
 }
