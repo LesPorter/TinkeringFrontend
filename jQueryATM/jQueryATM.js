@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   $("#balance").click(function() {
       // show the balance in the message area
-      $("#message").text("Checking: " + checking.toString() + " --- Savings: " + savings.toString());      
+      $("#message").text("Checking: $" + checking.toString() + " --- Savings: $" + savings.toString());      
   });
   
   // Checking deposit
@@ -92,7 +92,7 @@ $(document).ready(function() {
      checking = checking + amount;
      savings = savings + amount;
      // show the results in the message area
-     $("#message").text("We just deposited $" + amount + " into both of your accounts.");      
+     $("#message").text("We just deposited $" + amount + " into both of your accounts. You're welcome.");      
   });
   
 });
