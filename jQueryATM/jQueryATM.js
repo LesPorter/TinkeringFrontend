@@ -86,4 +86,13 @@ $(document).ready(function() {
     }
   });
   
+  // Free money
+  $("#freemoney").click(function() {
+     var amount = Math.round(Math.exp(Math.random()*Math.log(10000000-0+1)))+0;
+     checking = checking + amount;
+     savings = savings + amount;
+     // show the results in the message area
+     $("#message").text("We just deposited $" + amount + " into both of your accounts.");      
+  });
+  
 });
